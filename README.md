@@ -1,6 +1,6 @@
-# 📁 Project Name
+# 📁 Budget-Tracker
 
-> A short one-line description of what this project does.
+> SBCC Team Programming Club Budget Tracker
 
 ![Project Banner](https://placehold.co/600x400?text=Project+Banner)
 
@@ -27,9 +27,9 @@ List anything needed to run the project (e.g. Node.js, Python, extra libraries, 
 
 ```bash
 # Clone the repo
-git clone https://github.com/SBCC-Team-Programming-Club/<your-repo-name>
+git clone https://github.com/SBCC-Team-Programming-Club/Budget-Tracker
 # Navigate into the project
-cd <your-repo-name>
+cd Budget-Tracker
 # Install dependencies (if applicable)
 npm install
 ```
@@ -58,7 +58,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting any changes.
 
 | Name | GitHub | Role |
 |------|--------|------|
-| Your Name | @username | Member Role |
+| None | @domwilliams2 | Project Lead |
 
 ## 📄 License
 
