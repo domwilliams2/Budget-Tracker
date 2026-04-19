@@ -1,65 +1,36 @@
-# 📁 Budget-Tracker
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-> SBCC Team Programming Club Budget Tracker
+## Getting Started
 
-![Project Banner](https://placehold.co/600x400?text=Project+Banner)
-
-## 📋 Table of Contents
-
-- [About](#-about)
-- [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [Team](#-team)
-- [License](#-license)
-
-## 📖 About
-
-A more detailed description of the project. What problem does it solve? Who is it for?
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-List anything needed to run the project (e.g. Node.js, Python, extra libraries, etc.)
-
-### Installation
+First, run the development server:
 
 ```bash
-# Clone the repo
-git clone https://github.com/SBCC-Team-Programming-Club/Budget-Tracker
-# Navigate into the project
-cd Budget-Tracker
-# Install dependencies (if applicable)
-npm install
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### Running the Project
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-# Add the command to run your project here
-npm start
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 📂 Project Structure
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```
-src/        - Source code
-assets/     - Images, fonts, and static files
-docs/       - Documentation and notes
-tests/      - Test files
-```
+## Learn More
 
-## 🤝 Contributing
+To learn more about Next.js, take a look at the following resources:
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting any changes.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 👥 Team
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-| Name | GitHub | Role |
-|------|--------|------|
-| None | @domwilliams2 | Project Lead |
+## Deploy on Vercel
 
-## 📄 License
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
