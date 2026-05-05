@@ -1,8 +1,7 @@
 import sqlite3
-import uuid
 from pathlib import Path
 
-DB_PATH = Path("budget.db")
+DB_PATH = Path(__file__).parent / "budget.db"
 
 def get_connection():
     conn = sqlite3.connect(DB_PATH)
@@ -38,7 +37,7 @@ def init_db():
                 type TEXT NOT NULL,
                 account_id TEXT NOT NULL,
                 category_id TEXT,
-                FOREIGN KEY (account_id) REFERENCES account(account_id),
-                FOREIGN KEY (category_id) REFERENCES category(category_id)
+                FOREIGN KEY (account_id) REFERENCES account(account_id) ON DELETE CASCADE,
+                FOREIGN KEY (category_id) REFERENCES category(category_id) ON DELETE SET NULL
             )
         """)
